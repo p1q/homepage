@@ -1,0 +1,754 @@
+div#container
+{
+   width: 800px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #E9FFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#shapeMexicoTop
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#layerBottom
+{
+   background: #011B32 linear-gradient(to top, #011B32 0%, #015CA2 100%);
+}
+#shapeChinaTop
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#imageShadow
+{
+   border: 0 solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#layerTop
+{
+   background: #004276 linear-gradient(to bottom, #004276 0%, #011B32 100%);
+}
+#shapeRussiaTop
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#textCopyright
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0 solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#textCopyright div
+{
+   text-align: center;
+}
+#textAddress
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0 solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#textAddress div
+{
+   text-align: left;
+}
+#shapeChinaBottom
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#cssMainMenu
+{
+   border: 0 solid #DCDCDC;
+   background-color: transparent;
+   margin: 0;
+   text-align: left;
+}
+#cssMainMenu ul
+{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   display: inline-block;
+}
+#cssMainMenu li
+{
+   float: left;
+   margin: 0;
+   padding: 0 0 0 0;
+   width: 159px;
+}
+#cssMainMenu a
+{
+   display: block;
+   float: left;
+   color: #C7D8EA;
+   border: 0 solid #272727;
+   background: #03345D linear-gradient(to bottom, #03345D 0%, #012442 100%);
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 15px;
+   font-style: normal;
+   text-decoration: none;
+   width: 149px;
+   height: 50px;
+   padding: 0 5px 0 5px;
+   vertical-align: middle;
+   line-height: 50px;
+   text-align: center;
+}
+#cssMainMenu li:hover a, #cssMainMenu a:hover, #cssMainMenu .active
+{
+   color: #FFFFFF;
+   background: #011B32 linear-gradient(to bottom, #011B32 0%, #011B32 100%);
+   border: 0 solid #74021B;
+}
+#cssMainMenu li.firstmain
+{
+   padding-left: 0;
+}
+#cssMainMenu li.lastmain
+{
+   padding-right: 0;
+}
+#cssMainMenu br
+{
+   clear: both;
+   font-size: 1px;
+   height: 0;
+   line-height: 0;
+}
+#textChinaTop
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0 solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#textChinaTop div
+{
+   text-align: center;
+}
+#textChina
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0 solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#textChina div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#textMexicoTop
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0 solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#textMexicoTop div
+{
+   text-align: center;
+}
+#textRussiaTop
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0 solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#textRussiaTop div
+{
+   text-align: center;
+}
+#cssMenuSocial
+{
+   border: 0 solid #DCDCDC;
+   background-color: transparent;
+   margin: 0;
+   text-align: left;
+}
+#cssMenuSocial ul
+{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   display: inline-block;
+   width: 80px;
+}
+#cssMenuSocial li
+{
+   float: left;
+   margin: 0;
+   padding: 0 0 0 0;
+   width: 80px;
+}
+#cssMenuSocial a
+{
+   display: block;
+   color: #7494B1;
+   border: 0 solid #D0F0EF;
+   background-color: transparent;
+   background-image: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 11px;
+   font-style: normal;
+   text-decoration: none;
+   width: 70px;
+   height: 20px;
+   padding: 0 5px 0 5px;
+   vertical-align: middle;
+   line-height: 20px;
+   text-align: left;
+}
+#cssMenuSocial li:hover a, #cssMenuSocial a:hover
+{
+   color: #FFFFFF;
+   background-color: transparent;
+   background-image: none;
+   border: 0 solid #145F74;
+}
+#cssMenuSocial .firstmain a
+{
+   margin-top: 0;
+}
+#cssMenuSocial li.lastmain
+{
+   padding-bottom: 0;
+}
+#cssMenuSocial br
+{
+   clear: both;
+   font-size: 1px;
+   height: 0;
+   line-height: 0;
+}
+#textSocial
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0 solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#textSocial div
+{
+   text-align: left;
+}
+#textLinks
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0 solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#textLinks div
+{
+   text-align: left;
+}
+#cssMenuLinks
+{
+   border: 0 solid #DCDCDC;
+   background-color: transparent;
+   margin: 0;
+   text-align: left;
+}
+#cssMenuLinks ul
+{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   display: inline-block;
+   width: 100px;
+}
+#cssMenuLinks li
+{
+   float: left;
+   margin: 0;
+   padding: 0 0 0 0;
+   width: 100px;
+}
+#cssMenuLinks a
+{
+   display: block;
+   color: #7494B1;
+   border: 0 solid #D0F0EF;
+   background-color: transparent;
+   background-image: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 11px;
+   font-style: normal;
+   text-decoration: none;
+   width: 90px;
+   height: 20px;
+   padding: 0 5px 0 5px;
+   vertical-align: middle;
+   line-height: 20px;
+   text-align: left;
+}
+#cssMenuLinks li:hover a, #cssMenuLinks a:hover
+{
+   color: #FFFFFF;
+   background-color: transparent;
+   background-image: none;
+   border: 0 solid #145F74;
+}
+#cssMenuLinks .firstmain a
+{
+   margin-top: 0;
+}
+#cssMenuLinks li.lastmain
+{
+   padding-bottom: 0;
+}
+#cssMenuLinks br
+{
+   clear: both;
+   font-size: 1px;
+   height: 0;
+   line-height: 0;
+}
+#shapeMexicoBottom
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#shapeRussiaBottom
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#textMexico
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0 solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#textMexico div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#textRussia
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0 solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#textRussia div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#Text1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0 solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#Text1 div
+{
+   text-align: left;
+}
+#imageTrumpIndex
+{
+   border: 0 solid transparent;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: none;
+}
+#textIntro
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0 solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#textIntro div
+{
+   text-align: justify;
+   white-space: normal;
+}
+#textTrump
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0 solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#textTrump div
+{
+   text-align: left;
+}
+#imageLogo
+{
+   border: 0 solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#textWelcome
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0 solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#textWelcome div
+{
+   text-align: center;
+}
+#imageExperience
+{
+   border: 0 solid transparent;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: none;
+}
+#tableExperience
+{
+   border: 2px dotted #C0C0C0;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 1px;
+   margin: 0;
+}
+#tableExperience td
+{
+   padding: 7px 7px 7px 7px;
+}
+#tableExperience td div
+{
+   white-space: nowrap;
+}
+#tableExperience .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: center;
+   vertical-align: top;
+   width: 378px;
+   height: 28px;
+}
+#tableExperience .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: center;
+   vertical-align: top;
+   height: 28px;
+}
+#tableExperience .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: justify;
+   vertical-align: top;
+   width: 378px;
+   height: 1818px;
+}
+#tableExperience .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: justify;
+   vertical-align: top;
+   height: 1818px;
+}
+#tableEducation
+{
+   border: 2px dotted #C0C0C0;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 1px;
+   margin: 0;
+}
+#tableEducation td
+{
+   padding: 7px 7px 7px 7px;
+}
+#tableEducation td div
+{
+   white-space: nowrap;
+}
+#tableEducation .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: center;
+   vertical-align: top;
+   height: 28px;
+}
+#tableEducation .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: justify;
+   vertical-align: top;
+   height: 208px;
+}
+#tablePersonal
+{
+   border: 2px solid #C0C0C0;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 1px;
+   margin: 0;
+}
+#tablePersonal td
+{
+   padding: 0;
+}
+#tablePersonal td div
+{
+   white-space: nowrap;
+}
+#tablePersonal .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: center;
+   vertical-align: top;
+   height: 7.41%;
+}
+#tablePersonal .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 15.25%;
+   height: 90.45%;
+}
+#tablePersonal .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 16.5%;
+   height: 90.45%;
+}
+#tablePersonal .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 17%;
+   height: 90.45%;
+}
+#tablePersonal .cell4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 16.75%;
+   height: 90.45%;
+}
+#tablePersonal .cell5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 16%;
+   height: 90.45%;
+}
+#tablePersonal .cell6
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   height: 90.45%;
+}
+#tableRecruiters
+{
+   border: 2px solid #C0C0C0;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 5px;
+   margin: 0;
+}
+#tableRecruiters td
+{
+   padding: 5px 5px 5px 5px;
+}
+#tableRecruiters .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0 #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 372px;
+   height: 432px;
+   font-size: 0;
+}
+#tableRecruiters .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0 #C0C0C0 solid;
+   text-align: left;
+   vertical-align: middle;
+   height: 432px;
+}
+#wb_imageWhereSee
+{
+   margin: 0;
+   vertical-align: top;
+}
+#imageWhereSee
+{
+   border: 0 solid #000000;
+   box-sizing: border-box;
+   padding: 0;
+   display: inline-block;
+   width: 371px;
+   height: 397px;
+   vertical-align: top;
+}
+#tableFuture
+{
+   border: 2px dotted #C0C0C0;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 1px;
+   margin: 0;
+}
+#tableFuture td
+{
+   padding: 7px 7px 7px 7px;
+}
+#tableFuture td div
+{
+   white-space: nowrap;
+}
+#tableFuture .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: center;
+   vertical-align: top;
+   height: 28px;
+}
+#tableFuture .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: justify;
+   vertical-align: top;
+   height: 186px;
+}
