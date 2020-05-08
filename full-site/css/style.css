@@ -1,59 +1,60 @@
-div#container
-{
-   width: 800px;
-   position: relative;
+#container {
    margin: 0 auto 0 auto;
+   position: relative;
    text-align: left;
+   width: 800px;
 }
-body
-{
+
+body {
    background-color: #E9FFFF;
    color: #000000;
-   font-family: Arial;
-   font-weight: normal;
+   font-family: Arial, serif;
    font-size: 13px;
+   font-weight: normal;
    line-height: 1.1875;
    margin: 0;
    text-align: center;
 }
-a
-{
+
+a {
    color: #0000FF;
    text-decoration: underline;
 }
-a:visited
-{
+
+a:visited {
    color: #800080;
 }
-a:active
-{
+
+a:active {
    color: #FF0000;
 }
-a:hover
-{
+
+a:hover {
    color: #0000FF;
    text-decoration: underline;
 }
-input:focus, textarea:focus, select:focus
-{
+
+input:focus,
+textarea:focus,
+select:focus {
    outline: none;
 }
-#shapeMexicoTop
-{
+
+#shapeMexicoTop {
    border-width: 0;
    vertical-align: top;
 }
-#layerBottom
-{
+
+#layerBottom {
    background: #011B32 linear-gradient(to top, #011B32 0%, #015CA2 100%);
 }
-#shapeChinaTop
-{
+
+#shapeChinaTop {
    border-width: 0;
    vertical-align: top;
 }
-#imageShadow
-{
+
+#imageShadow {
    border: 0 solid #000000;
    padding: 0;
    margin: 0;
@@ -62,17 +63,17 @@ input:focus, textarea:focus, select:focus
    width: 100%;
    height: 100%;
 }
-#layerTop
-{
+
+#layerTop {
    background: #004276 linear-gradient(to bottom, #004276 0%, #011B32 100%);
 }
-#shapeRussiaTop
-{
+
+#shapeRussiaTop {
    border-width: 0;
    vertical-align: top;
 }
-#textCopyright
-{
+
+#textCopyright {
    background-color: transparent;
    background-image: none;
    border: 0 solid #000000;
@@ -80,12 +81,12 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    text-align: center;
 }
-#textCopyright div
-{
+
+#textCopyright div {
    text-align: center;
 }
-#textAddress
-{
+
+#textAddress {
    background-color: transparent;
    background-image: none;
    border: 0 solid #000000;
@@ -93,45 +94,45 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    text-align: left;
 }
-#textAddress div
-{
+
+#textAddress div {
    text-align: left;
 }
-#shapeChinaBottom
-{
+
+#shapeChinaBottom {
    border-width: 0;
    vertical-align: top;
 }
-#cssMainMenu
-{
+
+#cssMainMenu {
    border: 0 solid #DCDCDC;
    background-color: transparent;
    margin: 0;
    text-align: left;
 }
-#cssMainMenu ul
-{
+
+#cssMainMenu ul {
    list-style-type: none;
    margin: 0;
    padding: 0;
    position: relative;
    display: inline-block;
 }
-#cssMainMenu li
-{
+
+#cssMainMenu li {
    float: left;
    margin: 0;
    padding: 0 0 0 0;
    width: 159px;
 }
-#cssMainMenu a
-{
+
+#cssMainMenu a {
    display: block;
    float: left;
    color: #C7D8EA;
    border: 0 solid #272727;
    background: #03345D linear-gradient(to bottom, #03345D 0%, #012442 100%);
-   font-family: Arial;
+   font-family: Arial, serif;
    font-weight: bold;
    font-size: 15px;
    font-style: normal;
@@ -143,29 +144,31 @@ input:focus, textarea:focus, select:focus
    line-height: 50px;
    text-align: center;
 }
-#cssMainMenu li:hover a, #cssMainMenu a:hover, #cssMainMenu .active
-{
+
+#cssMainMenu li:hover a,
+#cssMainMenu a:hover,
+#cssMainMenu .active {
    color: #FFFFFF;
    background: #011B32 linear-gradient(to bottom, #011B32 0%, #011B32 100%);
    border: 0 solid #74021B;
 }
-#cssMainMenu li.firstmain
-{
+
+#cssMainMenu li.firstmain {
    padding-left: 0;
 }
-#cssMainMenu li.lastmain
-{
+
+#cssMainMenu li.lastmain {
    padding-right: 0;
 }
-#cssMainMenu br
-{
+
+#cssMainMenu br {
    clear: both;
    font-size: 1px;
    height: 0;
    line-height: 0;
 }
-#textChinaTop
-{
+
+#textChinaTop {
    background-color: transparent;
    background-image: none;
    border: 0 solid #000000;
@@ -173,12 +176,12 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    text-align: center;
 }
-#textChinaTop div
-{
+
+#textChinaTop div {
    text-align: center;
 }
-#textChina
-{
+
+#textChina {
    background-color: transparent;
    background-image: none;
    border: 0 solid #000000;
@@ -186,13 +189,13 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    text-align: left;
 }
-#textChina div
-{
+
+#textChina div {
    text-align: left;
    white-space: nowrap;
 }
-#textMexicoTop
-{
+
+#textMexicoTop {
    background-color: transparent;
    background-image: none;
    border: 0 solid #000000;
@@ -200,12 +203,12 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    text-align: center;
 }
-#textMexicoTop div
-{
+
+#textMexicoTop div {
    text-align: center;
 }
-#textRussiaTop
-{
+
+#textRussiaTop {
    background-color: transparent;
    background-image: none;
    border: 0 solid #000000;
@@ -213,19 +216,19 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    text-align: center;
 }
-#textRussiaTop div
-{
+
+#textRussiaTop div {
    text-align: center;
 }
-#cssMenuSocial
-{
+
+#cssMenuSocial {
    border: 0 solid #DCDCDC;
    background-color: transparent;
    margin: 0;
    text-align: left;
 }
-#cssMenuSocial ul
-{
+
+#cssMenuSocial ul {
    list-style-type: none;
    margin: 0;
    padding: 0;
@@ -233,21 +236,21 @@ input:focus, textarea:focus, select:focus
    display: inline-block;
    width: 80px;
 }
-#cssMenuSocial li
-{
+
+#cssMenuSocial li {
    float: left;
    margin: 0;
    padding: 0 0 0 0;
    width: 80px;
 }
-#cssMenuSocial a
-{
+
+#cssMenuSocial a {
    display: block;
    color: #7494B1;
    border: 0 solid #D0F0EF;
    background-color: transparent;
    background-image: none;
-   font-family: Arial;
+   font-family: Arial, serif;
    font-weight: normal;
    font-size: 11px;
    font-style: normal;
@@ -259,30 +262,31 @@ input:focus, textarea:focus, select:focus
    line-height: 20px;
    text-align: left;
 }
-#cssMenuSocial li:hover a, #cssMenuSocial a:hover
-{
+
+#cssMenuSocial li:hover a,
+#cssMenuSocial a:hover {
    color: #FFFFFF;
    background-color: transparent;
    background-image: none;
    border: 0 solid #145F74;
 }
-#cssMenuSocial .firstmain a
-{
+
+#cssMenuSocial .firstmain a {
    margin-top: 0;
 }
-#cssMenuSocial li.lastmain
-{
+
+#cssMenuSocial li.lastmain {
    padding-bottom: 0;
 }
-#cssMenuSocial br
-{
+
+#cssMenuSocial br {
    clear: both;
    font-size: 1px;
    height: 0;
    line-height: 0;
 }
-#textSocial
-{
+
+#textSocial {
    background-color: transparent;
    background-image: none;
    border: 0 solid #000000;
@@ -290,12 +294,12 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    text-align: left;
 }
-#textSocial div
-{
+
+#textSocial div {
    text-align: left;
 }
-#textLinks
-{
+
+#textLinks {
    background-color: transparent;
    background-image: none;
    border: 0 solid #000000;
@@ -303,19 +307,19 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    text-align: left;
 }
-#textLinks div
-{
+
+#textLinks div {
    text-align: left;
 }
-#cssMenuLinks
-{
+
+#cssMenuLinks {
    border: 0 solid #DCDCDC;
    background-color: transparent;
    margin: 0;
    text-align: left;
 }
-#cssMenuLinks ul
-{
+
+#cssMenuLinks ul {
    list-style-type: none;
    margin: 0;
    padding: 0;
@@ -323,21 +327,21 @@ input:focus, textarea:focus, select:focus
    display: inline-block;
    width: 100px;
 }
-#cssMenuLinks li
-{
+
+#cssMenuLinks li {
    float: left;
    margin: 0;
    padding: 0 0 0 0;
    width: 100px;
 }
-#cssMenuLinks a
-{
+
+#cssMenuLinks a {
    display: block;
    color: #7494B1;
    border: 0 solid #D0F0EF;
    background-color: transparent;
    background-image: none;
-   font-family: Arial;
+   font-family: Arial, serif;
    font-weight: normal;
    font-size: 11px;
    font-style: normal;
@@ -349,40 +353,41 @@ input:focus, textarea:focus, select:focus
    line-height: 20px;
    text-align: left;
 }
-#cssMenuLinks li:hover a, #cssMenuLinks a:hover
-{
+
+#cssMenuLinks li:hover a,
+#cssMenuLinks a:hover {
    color: #FFFFFF;
    background-color: transparent;
    background-image: none;
    border: 0 solid #145F74;
 }
-#cssMenuLinks .firstmain a
-{
+
+#cssMenuLinks .firstmain a {
    margin-top: 0;
 }
-#cssMenuLinks li.lastmain
-{
+
+#cssMenuLinks li.lastmain {
    padding-bottom: 0;
 }
-#cssMenuLinks br
-{
+
+#cssMenuLinks br {
    clear: both;
    font-size: 1px;
    height: 0;
    line-height: 0;
 }
-#shapeMexicoBottom
-{
+
+#shapeMexicoBottom {
    border-width: 0;
    vertical-align: top;
 }
-#shapeRussiaBottom
-{
+
+#shapeRussiaBottom {
    border-width: 0;
    vertical-align: top;
 }
-#textMexico
-{
+
+#textMexico {
    background-color: transparent;
    background-image: none;
    border: 0 solid #000000;
@@ -390,13 +395,13 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    text-align: left;
 }
-#textMexico div
-{
+
+#textMexico div {
    text-align: left;
    white-space: nowrap;
 }
-#textRussia
-{
+
+#textRussia {
    background-color: transparent;
    background-image: none;
    border: 0 solid #000000;
@@ -404,26 +409,13 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    text-align: left;
 }
-#textRussia div
-{
+
+#textRussia div {
    text-align: left;
    white-space: nowrap;
 }
-#Text1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0 solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#Text1 div
-{
-   text-align: left;
-}
-#imageTrumpIndex
-{
+
+#imageTrumpIndex {
    border: 0 solid transparent;
    padding: 0;
    margin: 0;
@@ -433,8 +425,8 @@ input:focus, textarea:focus, select:focus
    height: 100%;
    object-fit: none;
 }
-#textIntro
-{
+
+#textIntro {
    background-color: transparent;
    background-image: none;
    border: 0 solid #000000;
@@ -442,13 +434,13 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    text-align: justify;
 }
-#textIntro div
-{
+
+#textIntro div {
    text-align: justify;
    white-space: normal;
 }
-#textTrump
-{
+
+#textTrump {
    background-color: transparent;
    background-image: none;
    border: 0 solid #000000;
@@ -456,12 +448,12 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    text-align: left;
 }
-#textTrump div
-{
+
+#textTrump div {
    text-align: left;
 }
-#imageLogo
-{
+
+#imageLogo {
    border: 0 solid #000000;
    padding: 0;
    margin: 0;
@@ -470,8 +462,8 @@ input:focus, textarea:focus, select:focus
    width: 100%;
    height: 100%;
 }
-#textWelcome
-{
+
+#textWelcome {
    background-color: transparent;
    background-image: none;
    border: 0 solid #000000;
@@ -479,12 +471,12 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    text-align: center;
 }
-#textWelcome div
-{
+
+#textWelcome div {
    text-align: center;
 }
-#imageExperience
-{
+
+#imageExperience {
    border: 0 solid transparent;
    padding: 0;
    margin: 0;
@@ -494,8 +486,8 @@ input:focus, textarea:focus, select:focus
    height: 100%;
    object-fit: none;
 }
-#tableExperience
-{
+
+#tableExperience {
    border: 2px dotted #C0C0C0;
    background-color: transparent;
    background-image: none;
@@ -503,16 +495,16 @@ input:focus, textarea:focus, select:focus
    border-spacing: 1px;
    margin: 0;
 }
-#tableExperience td
-{
+
+#tableExperience td {
    padding: 7px 7px 7px 7px;
 }
-#tableExperience td div
-{
+
+#tableExperience td div {
    white-space: nowrap;
 }
-#tableExperience .cell0
-{
+
+#tableExperience .cell0 {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
@@ -521,8 +513,8 @@ input:focus, textarea:focus, select:focus
    width: 378px;
    height: 28px;
 }
-#tableExperience .cell1
-{
+
+#tableExperience .cell1 {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
@@ -530,8 +522,8 @@ input:focus, textarea:focus, select:focus
    vertical-align: top;
    height: 28px;
 }
-#tableExperience .cell2
-{
+
+#tableExperience .cell2 {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
@@ -540,8 +532,8 @@ input:focus, textarea:focus, select:focus
    width: 378px;
    height: 1818px;
 }
-#tableExperience .cell3
-{
+
+#tableExperience .cell3 {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
@@ -549,8 +541,8 @@ input:focus, textarea:focus, select:focus
    vertical-align: top;
    height: 1818px;
 }
-#tableEducation
-{
+
+#tableEducation {
    border: 2px dotted #C0C0C0;
    background-color: transparent;
    background-image: none;
@@ -558,16 +550,16 @@ input:focus, textarea:focus, select:focus
    border-spacing: 1px;
    margin: 0;
 }
-#tableEducation td
-{
+
+#tableEducation td {
    padding: 7px 7px 7px 7px;
 }
-#tableEducation td div
-{
+
+#tableEducation td div {
    white-space: nowrap;
 }
-#tableEducation .cell0
-{
+
+#tableEducation .cell0 {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
@@ -575,8 +567,8 @@ input:focus, textarea:focus, select:focus
    vertical-align: top;
    height: 28px;
 }
-#tableEducation .cell1
-{
+
+#tableEducation .cell1 {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
@@ -584,8 +576,8 @@ input:focus, textarea:focus, select:focus
    vertical-align: top;
    height: 208px;
 }
-#tablePersonal
-{
+
+#tablePersonal {
    border: 2px solid #C0C0C0;
    background-color: transparent;
    background-image: none;
@@ -593,16 +585,16 @@ input:focus, textarea:focus, select:focus
    border-spacing: 1px;
    margin: 0;
 }
-#tablePersonal td
-{
+
+#tablePersonal td {
    padding: 0;
 }
-#tablePersonal td div
-{
+
+#tablePersonal td div {
    white-space: nowrap;
 }
-#tablePersonal .cell0
-{
+
+#tablePersonal .cell0 {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
@@ -610,8 +602,8 @@ input:focus, textarea:focus, select:focus
    vertical-align: top;
    height: 7.41%;
 }
-#tablePersonal .cell1
-{
+
+#tablePersonal .cell1 {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
@@ -620,8 +612,8 @@ input:focus, textarea:focus, select:focus
    width: 15.25%;
    height: 90.45%;
 }
-#tablePersonal .cell2
-{
+
+#tablePersonal .cell2 {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
@@ -630,8 +622,8 @@ input:focus, textarea:focus, select:focus
    width: 16.5%;
    height: 90.45%;
 }
-#tablePersonal .cell3
-{
+
+#tablePersonal .cell3 {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
@@ -640,8 +632,8 @@ input:focus, textarea:focus, select:focus
    width: 17%;
    height: 90.45%;
 }
-#tablePersonal .cell4
-{
+
+#tablePersonal .cell4 {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
@@ -650,8 +642,8 @@ input:focus, textarea:focus, select:focus
    width: 16.75%;
    height: 90.45%;
 }
-#tablePersonal .cell5
-{
+
+#tablePersonal .cell5 {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
@@ -660,8 +652,8 @@ input:focus, textarea:focus, select:focus
    width: 16%;
    height: 90.45%;
 }
-#tablePersonal .cell6
-{
+
+#tablePersonal .cell6 {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
@@ -669,8 +661,8 @@ input:focus, textarea:focus, select:focus
    vertical-align: top;
    height: 90.45%;
 }
-#tableRecruiters
-{
+
+#tableRecruiters {
    border: 2px solid #C0C0C0;
    background-color: transparent;
    background-image: none;
@@ -678,12 +670,12 @@ input:focus, textarea:focus, select:focus
    border-spacing: 5px;
    margin: 0;
 }
-#tableRecruiters td
-{
+
+#tableRecruiters td {
    padding: 5px 5px 5px 5px;
 }
-#tableRecruiters .cell0
-{
+
+#tableRecruiters .cell0 {
    background-color: transparent;
    background-image: none;
    border: 0 #C0C0C0 solid;
@@ -693,8 +685,8 @@ input:focus, textarea:focus, select:focus
    height: 432px;
    font-size: 0;
 }
-#tableRecruiters .cell1
-{
+
+#tableRecruiters .cell1 {
    background-color: transparent;
    background-image: none;
    border: 0 #C0C0C0 solid;
@@ -702,13 +694,13 @@ input:focus, textarea:focus, select:focus
    vertical-align: middle;
    height: 432px;
 }
-#wb_imageWhereSee
-{
+
+#wb_imageWhereSee {
    margin: 0;
    vertical-align: top;
 }
-#imageWhereSee
-{
+
+#imageWhereSee {
    border: 0 solid #000000;
    box-sizing: border-box;
    padding: 0;
@@ -717,8 +709,8 @@ input:focus, textarea:focus, select:focus
    height: 397px;
    vertical-align: top;
 }
-#tableFuture
-{
+
+#tableFuture {
    border: 2px dotted #C0C0C0;
    background-color: transparent;
    background-image: none;
@@ -726,16 +718,12 @@ input:focus, textarea:focus, select:focus
    border-spacing: 1px;
    margin: 0;
 }
-#tableFuture td
-{
+
+#tableFuture td {
    padding: 7px 7px 7px 7px;
 }
-#tableFuture td div
-{
-   white-space: nowrap;
-}
-#tableFuture .cell0
-{
+
+#tableFuture .cell0 {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
@@ -743,8 +731,8 @@ input:focus, textarea:focus, select:focus
    vertical-align: top;
    height: 28px;
 }
-#tableFuture .cell1
-{
+
+#tableFuture .cell1 {
    background-color: transparent;
    background-image: none;
    border: 1px #C0C0C0 solid;
